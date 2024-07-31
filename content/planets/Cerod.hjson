@@ -1,0 +1,169 @@
+generator: SerpuloPlanetGenerator       //Генератор планеты (Если не создаёте свой генератор, тогда не меняйте название)
+localizedName: "Cerod"       //Название планеты
+name: "Cerod"
+description: "A small satellite of Cedon."
+parent: Cedon
+iconColor: 20d48f       //Цвет иконки
+orbitRadius: 7       //Радиус орбиты
+hasAtmosphere: true       //Есть ли атмосфера?
+updateLighting: false
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+atmosphereColor: 8fbda5       //Цвет атмосферы
+drawOrbit: true      //Рисовать орбиту? (false - не отрисовывать, true - отрисовывать)
+radius: 0.4
+minZoom: 1.5
+bloom: false
+visible: true
+solarSystem: sun
+allowWaveSimulation: false
+clearSectorOnLose: true
+allowWaves: false
+prebuildBase: false
+
+accessible: false      //Можно ли на неё приземлиться (Оставляйте всегда true, если не хотите чтобы планета была декоративной)
+alwaysUnlocked: false      //Всегда ли разблокированна? (Оставляйте всегда true, если не хотите чтобы планета была декоративной)
+defaultCore: "core-shard"       //Основное ядро (В данном случае "Росток"). Можно создать своё ядро и указать здесь
+sectorSeed: 220509       //Семя сектора
+startSector:  1       //Начальный сектор 
+sectorSize: 3     //Размер секторов
+
+clearSectorOnLose: true       //Очищать сектор после проигрыша? (true - да, false - нет)
+allowSectorInvasion: true      //Возможность атаки с вражеских секторов (true - будет атака с вражеских секторов, false - враги не будут атаковать соседние сектора)
+allowLaunchSchematics: false
+allowLaunchLoadout: false
+allowLaunchToNumbered: false      //Возможность приземляться на соседние сектора (true - как на Серпуло, false - как на Эрекире)
+
+iconColor: 5bb57d
+
+//Отрисовка облаков
+//В этом туториале этого не будет, если хотите узнать подробнее пишите в комментариях
+cloudMesh: [
+  {
+  type: HexSkyMesh
+  planet: Cerod
+  seed: 46
+  speed: 4.9
+  radius: 0.21
+  divisions: 4
+  color: c5d3d4
+  octaves: 5
+  persistence: 0.4
+  scl: 0.5
+  thresh: 0.3
+ }
+ {
+   type: HexSkyMesh
+   planet: Cerod
+   seed: 237
+   speed: 1.5
+   radius: 0.019
+   divisions: 6
+   color: d8e3db
+   octaves: 4
+   persistence: 0.2
+   scl: 0.8
+   thresh: 0.4
+ }
+  {
+   type: HexSkyMesh
+   planet: Cerod
+   seed: 5
+   speed: 2.7
+   radius: 0.23
+   divisions: 3
+   color: ebe8da
+   octaves: 4
+   persistence: 0.4
+   scl: 0.7
+   thresh: 0.5
+ }
+ ]
+ //Поверхность планеты
+mesh: [
+ {
+  //Океаны
+    type: NoiseMesh
+    planet: Cedon
+    seed: 1573
+    color1: 71c9d9
+    color2: 62a8d1
+    divisions: 3
+    radius: 0.35
+    octaves: 3
+    persistence: 0.1
+    scl: 0.54
+    mag: 1.2
+ }
+ {
+ //Горы
+    type: NoiseMesh
+    planet: Cerod
+    seed: 28455
+    color1: c9c6a9
+    color2: a39a8c
+    divisions: 5.4
+    radius: 0.31
+    octaves: 4.6
+    persistence: 1.6
+    scl: 0.52
+    mag: 1.4
+ }
+ {
+ //Леса
+    type: NoiseMesh
+    planet: Cerod
+    seed: 735
+    color1: abe67c
+    color2: 74d15a
+    divisions: 3.2
+    radius: 0.33
+    octaves: 5
+    persistence: 1.4
+    scl: 0.54
+    mag: 1.3
+ }
+  {
+ //Джунгли
+    type: NoiseMesh
+    planet: Cerod
+    seed: 32
+    color1: 41d994
+    color2: 8ae3a5
+    divisions: 4.3
+    radius: 0.34
+    octaves: 5.8
+    persistence: 1.7
+    scl: 0.58
+    mag: 1.3
+ }
+]
+
+//Спрятанные предметы на планете
+//Если вам нужны ванильные предметы такие как Медь, Свинец, Бериллий - удалите все предметы из этого пункта
+hiddenItems: [
+    "copper"
+    "lead"
+    "scrap"
+    "graphite"
+    "coal"
+    "thorium"
+    "silicon"
+    "plastanium"
+    "phase-fabric"
+    "surge-alloy"
+    "spore-pod"
+    "blast-compound"
+    "pyratite"
+    "metaglass"
+    "beryllium"
+    "oxide"
+    "tungsten"
+    "carbide"
+    "fissile-matter"
+    "dormant-cyst"
+	"titanium"
+	"aluminum"
+]
+itemWhitelist: [ 
+]

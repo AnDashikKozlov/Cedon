@@ -1,0 +1,18 @@
+type: LiquidRouter
+name: "Small fluid tank"
+health: 150
+liquidCapacity: 500
+size: 2
+category: liquid
+placeableLiquid: true
+hasPower: false
+requirements: [
+  fiberglass/30
+  aluminum/15
+  titanium/10
+]
+researchCostMultiplier: 0.3
+research: {
+planet: Cedon
+parent: aluminum-liquid-router
+}

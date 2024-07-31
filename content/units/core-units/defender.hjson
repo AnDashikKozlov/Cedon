@@ -1,0 +1,71 @@
+name: "Defender"
+description: "The first unit of the first core. It has two small electric guns and the ability to create a field that harms the enemy."
+
+type: legs
+legCount: 6
+legLength: 27
+legSpeed: 0.52
+legForwardScl: 0.81
+legMoveSpace: 0.64
+
+outlineColor: 3d3d3a
+
+alwaysUnlocked: true
+flying: false
+shadowElevation: 0.1
+controller: BuilderAI
+payloadCapacity: 2
+pickupUnits: false
+hovering: true
+groundLayer: 60
+
+fogRadius: 7
+drag: 0.5
+speed: 3.2
+isEnemy: false
+lowAltitude: true
+mineWalls: true
+mineFloor: true
+mineSpeed: 2.3
+mineTier: 2
+buildSpeed: 1.4
+accel: 0.1
+rotateSpeed: 3.4
+itemCapacity: 40
+health: 260
+armor: 5
+hitSize: 15
+//useEngineElevation: false
+//engineOffset: 9.8
+//engineSize: 3.8
+//engineColor: fc8a6a
+abilities: [
+{
+      type: mindustry.entities.abilities.ForceFieldAbility
+      radius: 24
+      regen: 10
+      max: 15000
+      cooldown: 36
+    }
+]
+weapons: [
+{
+name: defender-electro-weapon
+x: 4.5
+y: 6
+reload: 62
+shootSound: spark
+rotate: true
+rotateSpeed: 3.5
+recoil: 4
+top: true
+shootCone: 20
+bullet: {
+type: LightningBulletType
+damage: 34
+lightningLength: 19
+lightningLengthRand: 12
+lightningColor: f2b1b6
+}
+}
+]

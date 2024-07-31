@@ -1,0 +1,5 @@
+type: floor
+name: "Aluminum primer"
+variants: 3             //Кол-во вариаций (Спрайтов)
+wall: Aluminum-rock-wall
+decoration: Aluminum-boulder

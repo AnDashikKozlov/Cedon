@@ -1,0 +1,61 @@
+type: AttributeCrafter
+name: "Hydrogen synthesizer"
+attribute: heat
+baseEfficiency: 0.5
+minEfficiency: 0.5
+maxBoost: 2
+boostScale: 0.4556
+hasItems: false
+hasLiquids: true
+hasPower: true
+size: 3
+squareSprite: false
+consumes: {
+  liquids: [
+    water/0.63
+  ]
+  power: 0.85
+}
+craftTime: 175
+outputLiquid: hydrogen/0.16
+craftEffect: smokeCloud
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      padding: 3
+      drawLiquid: hydrogen
+      alpha: 0.7
+    }
+    {    
+      type: DrawBubbles
+    }
+    {
+      type: DrawCircles
+      color: 89a8c4
+      strokeMax: 0.8
+      radius: 8
+      amount: 2.5
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+
+category: crafting
+requirements: [
+  aluminum/60
+  fiberglass/40
+]
+
+researchCostMultiplier: 0.3
+research: {
+parent: Core-sprout
+planet: Cedon
+}

@@ -1,0 +1,17 @@
+localizedName: "Test sector1"
+description: "Test sector1"
+captureWave: 10       //Волна на которой он закончится
+planet: Cedon
+sector: 11
+difficulty: 1      //Сложность сектора
+useAI: true      //Используется ИИ? (Оставляйте false, если только вы не указали в карте, чтобы враг использовал ИИ)
+startWaveTimeMultiplier: 3      //Время до 1 волны 
+allowLaunchLoadout: false
+allowLaunchSchematics: false
+addStartingItems: true      //Будут ли добавленны стартовые предметы? (true - да, false - нет)
+overrideLaunchDefaults: true
+showSectorLandInfo: true      //Показывать описания сектора? (true - да, false - нет)
+alwaysUnlocked: true
+research: {
+parent: Core-sprout
+}

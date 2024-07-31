@@ -1,0 +1,30 @@
+type: BeamNode
+name: "Large energy node"
+description: "Improved version of the energy node. Has a larger operating radius."
+consumes: {
+  powerBuffered: 1500
+}
+squareSprite: false
+allowDiagonal: true
+drawDisabled: false
+underBullets: true
+size: 3
+health: 250
+//maxNodes: 16
+maxNodes: 42
+range: 20
+//laserColor1: f7e08d
+//laserColor2: ff9257
+laserColor1: 7dd8ff               //светлый цвет
+laserColor2: 5d5dc2               //тёмный цвет
+category: power
+requirements: [
+    lead/25
+    fiberglass/20
+  ]
+category: power
+researchCostMultiplier: 0.3
+research: {
+planet: Cedon
+parent: energy-node
+}

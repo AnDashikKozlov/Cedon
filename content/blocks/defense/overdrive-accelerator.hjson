@@ -1,0 +1,30 @@
+name: "Overdrive accelerator"
+description: "Speeds up nearby buildings."
+type: OverdriveProjector
+health: 760
+size: 2
+range: 90
+consumes: { 
+ power: 2.5,
+    liquid: {
+      liquid: water
+      amount: 0.15
+      optional: true
+      booster: true
+      update: true
+    }
+},
+    speedBoost: 1.4
+    speedBoostPhase: 0.8
+    phaseRangeBoost: 30,
+requirements: [
+aluminum/50
+fiberglass/80
+apraxium/30
+]
+category: effect
+researchCostMultiplier: 0.5
+research: {
+planet: Cedon
+parent: buigldin-repair-station
+}

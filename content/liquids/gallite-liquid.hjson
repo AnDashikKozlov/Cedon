@@ -1,0 +1,17 @@
+type: liquid
+name: "Gallite"
+description: "Mainly used in manufacturing."
+details: "Slightly flammable, viscous yellow-green substance, origin: unknown."
+temperature: 0.4
+viscosity: 0.7
+color: 94eb4d
+coolant: false
+heatCapacity: 0.4
+
+flammability: 0.6
+explosiveness: 0
+
+research: {
+planet: Cedon
+parent: fiberglass
+}

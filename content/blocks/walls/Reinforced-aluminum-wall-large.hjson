@@ -1,0 +1,15 @@
+    type: "Wall"
+	name: "Large reinforced aluminum wall"
+    health: 1600
+    size: 2
+    category: defense
+    absorbLasers: false
+requirements: [
+  aluminum/48
+  fiberglass/20
+]
+researchCostMultiplier: 0.3
+research: {
+planet: Cedon
+parent: Reinforced-aluminum-wall
+}

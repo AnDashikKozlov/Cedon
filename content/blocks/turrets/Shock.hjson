@@ -1,0 +1,74 @@
+type: ItemTurret
+name: "Shock"
+
+squareSprite: false 
+outlineColor: 36363cff
+
+size: 2
+health: 540
+reload: 80
+range: 150
+maxAmmo: 18
+inaccuracy: 3
+shots: 3
+targetAir: true
+targetGround: true
+shootCone: 5
+spread: 1
+recoilAmount: 5
+restitution: 0.5
+rotateSpeed: 2.5
+shootSound: shotgun
+ammoPerShot: 5
+ammoTypes: {
+        apraxium: {
+            type: shrapnelBulletType
+            lifetime: 35
+            damage: 42
+            serrations: 9
+            serrationSpacing: 20
+            serrationLenScl: 17
+            serrationWidth: 5
+            hitLarge: true
+            fromColor: e09f4a
+            toColor: f7ea83
+            length: 153
+            width: 17
+            hitEffect: blastExplosion
+            shootEffect: blastExplosion
+            pierce: true
+            smokeEffect: hitBulletBig
+        }
+        titanium: {
+            type: shrapnelBulletType,
+            lifetime: 27,
+            damage: 28,
+            status: freezing
+            statusDuration: 94
+            serrations: 6
+            serrationSpacing: 16
+            serrationLenScl: 15
+            serrationWidth: 5
+            fromColor: d9faff,
+            toColor: 6d96e3,
+            length: 147,
+            width: 8,
+            hitEffect: blastExplosion,
+            shootEffect: blastExplosion,
+            pierce: true,
+            smokeEffect: hitBulletBig
+        }
+    }
+category: turret
+requirements: [
+  aluminum/45
+  fiberglass/10
+  ]
+researchCostMultiplier: 0.4
+research: {
+planet: Cedon
+parent: Electron
+}
+consumes: {
+coolant: {}
+}

@@ -1,0 +1,6 @@
+type: floor
+name: "Testing floor"
+variants: 3             //Кол-во вариаций (Спрайтов)
+wall: Testing-wall
+decoration: Testing-boulder
+itemDrop: testing-item

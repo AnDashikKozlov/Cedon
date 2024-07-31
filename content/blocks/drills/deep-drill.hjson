@@ -1,0 +1,43 @@
+type: Drill
+name: "Deep drill"
+size: 3
+tier: 3     //Бурит предмет такой прочности
+drillTime: 140      //Время бурения
+itemCapacity: 20      //Сколько предметов вмещает
+rotateSpeed: 1.5     //Скорость вращения части rotator
+warmupSpeed: 0.001
+liquidBoostIntensity: 1.8     //Интенсивность ускорения жидкостью
+liquidCapacity: 10       //Сколько вмещает жидкостей
+outputLiquid: water
+outputLiquidPerTick: 0.7
+  //Что потребляет
+consumes: {
+    liquid: {
+      liquid: water
+      amount: 0.05
+      optional: true
+      booster: true
+      update: true
+    }
+	power: 1.7
+}
+upgrade: {
+    effects: {
+      drillSpeed: 1.7
+    }
+}
+  //Стоимость постройки
+requirements: [
+    fiberglass/35
+	aluminum/40
+	//Item/20
+]
+  //Категория, здоровье, скорость, к чему прикрепленно
+category: production
+health: 250
+speed: 0.50
+researchCostMultiplier: 0.3
+research: {
+planet: Cedon
+parent: hydraulic-drill
+}

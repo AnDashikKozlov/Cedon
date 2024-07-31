@@ -1,0 +1,5 @@
+type: floor
+name: "Gallite rock floor"
+variants: 3             //Кол-во вариаций (Спрайтов)
+wall: Gallite-rock-wall
+decoration: Gallite-boulder

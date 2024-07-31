@@ -1,0 +1,14 @@
+    "type": "Wall",
+	"name": "Large aluminum wall",
+    "health": 400,
+    "size": 2,
+    category: defense
+    absorbLasers: false
+requirements: [
+  aluminum/32
+]
+researchCostMultiplier: 0.3
+research: {
+planet: Cedon
+parent: Aluminum-wall
+}

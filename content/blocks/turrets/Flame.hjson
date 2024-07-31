@@ -1,0 +1,190 @@
+type: ContinuousLiquidTurret
+name: Flame
+
+squareSprite: false
+outlineColor: 36363cff
+
+hasPower: false
+hasItems: false
+hasLiquids: true
+
+size: 3
+health: 540
+reload: 150
+range: 165
+liquidConsumed: 0.36
+maxAmmo: 30
+inaccuracy: 5
+shots: 0
+shootStatus: slow
+targetAir: true
+targetGround: true
+shootCone: 1
+spread: 1
+recoilAmount: 30
+restitution: 0.7
+rotateSpeed: 1.4
+shootSound: torch
+loopSound: torch
+loopSoundVolume: 1.4
+
+consumes: {}
+
+alwaysContinuous: true
+continuous: true
+	
+ammoTypes: {
+"hydrogen": {
+type: ContinuousFlameBulletType,
+colors: [7399c7, 71acd1, 7dd1e8, 91effa, ffffff]
+damage: 19
+knockback: 1
+status: melting
+statusDuration: 182
+width: 3.2
+length: 163
+drawFlare: true
+flareWidth: 2.6
+flareLength: 23
+flareColor: 91effa
+lifetime: 60
+hitEffect: {
+type: ParticleEffect
+line: true
+particles: 7
+lifetime: 15
+cone: -360
+strokeFrom: 2.5
+strokeTo: 0
+lenFrom: 8
+lenTo: 0
+colorFrom: cffa73
+colorTo: a3d96a
+}
+},
+"oxygen": {
+type: ContinuousFlameBulletType,
+colors: [c4a17e, e6cb8c, f5ebba, fff8d1, ffffff]
+damage: 22
+knockback: 1
+status: melting
+statusDuration: 195
+width: 3.6
+length: 167
+drawFlare: true
+flareWidth: 3
+flareLength: 32
+flareColor: fff8d1
+lifetime: 72
+hitEffect: {
+type: ParticleEffect
+line: true
+particles: 11
+lifetime: 19
+cone: -360
+strokeFrom: 3
+strokeTo: 0
+lenFrom: 10
+lenTo: 0
+colorFrom: 97dff0
+colorTo: 78a4cc
+}
+}
+}
+category: turret
+requirements: [
+  aluminum/80
+  fiberglass/35
+  apraxium/15
+  ]
+researchCostMultiplier: 0.4
+research: {
+planet: Cedon
+parent: Hold
+}
+
+drawer: {
+      type: DrawTurret
+      parts: [
+      {
+      type: RegionPart
+      suffix: -side
+      under: true
+      mirror: true
+      heatProgress: recoil
+      progress: warmup
+      moves: [
+      {
+      type: PartMove
+      rot: -30
+	  moveY: 2.2
+      }
+      ]
+      children: [
+            {
+            type: RegionPart
+            color: ff000000
+            suffix: -side-glow
+            colorTo: bdff80
+            progress: warmup
+            outline: false
+            }
+            ]
+      }
+      {
+      type: RegionPart
+      suffix: -middle
+      progress: recoil
+      moveY: -1.1
+      heatProgress: recoil
+      }
+//Круги
+{
+type: ShapePart
+  y: -16
+  hollow: true
+  circle: true
+  layer: 110
+  color: 84e898
+  stroke: 0
+  strokeTo: 0.9
+  radius: 5
+}
+{
+type: ShapePart
+  y: 13 
+  hollow: true
+  circle: true
+  layer: 110
+  color: 84e898
+  stroke: 0
+  strokeTo: 1.2
+  radius: 11
+}
+//Многоугольники
+{
+type: ShapePart
+  y: 13
+  hollow: true
+  layer: 110
+  color: 84e898
+  sides: 5
+  stroke: 0
+  strokeTo: 1.4
+  radius: 8
+  rotateSpeed: -1.3
+}
+{
+type: ShapePart
+  y: -16
+  hollow: true
+  layer: 120
+  color: 84e898
+  sides: 3
+  stroke: 0
+  strokeTo: 0.7
+  radius: 4
+  rotateSpeed: 3.8
+}
+      ]
+      }

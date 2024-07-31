@@ -1,0 +1,14 @@
+    "type": "Wall",
+	"name": "Aluminum wall",
+    "health": 175,
+    "size": 1,
+    category: defense
+    absorbLasers: false
+requirements: [
+  aluminum/8
+]
+researchCostMultiplier: 0.2
+research: {
+planet: Cedon
+parent: Сore_sprout
+}

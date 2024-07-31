@@ -1,0 +1,15 @@
+type: Floor
+name: "Testing floor: liquid"
+
+status: sapped
+statusDuration": 200,
+speedMultiplier: 0.5
+variants: 3
+cacheLayer: water
+isLiquid: true
+liquidDrop: testing-liquid
+liquidMultiplier: 1
+albedo: 1.5
+shallow: true
+supportsOverlay: true
+placeableOn: true

@@ -1,0 +1,64 @@
+name: "Threat"
+description: "The first unit of the first core. It has two small electric guns and the ability to create a field that harms the enemy."
+
+type: legs
+legCount: 4
+legLength: 15
+legSpeed: 0.32
+legForwardScl: 0.56
+legMoveSpace: 0.84
+
+outlineColor: 3d3d3a
+
+alwaysUnlocked: true
+flying: false
+shadowElevation: 0.1
+controller: BuilderAI
+payloadCapacity: 2
+pickupUnits: false
+hovering: true
+groundLayer: 60
+
+fogRadius: 7
+drag: 0.5
+speed: 4.0
+isEnemy: false
+lowAltitude: true
+mineWalls: true
+mineFloor: true
+mineSpeed: 1.6
+mineTier: 1
+buildSpeed: 0.75
+accel: 0.1
+rotateSpeed: 2.6
+itemCapacity: 20
+health: 182
+armor: 2
+hitSize: 10
+//useEngineElevation: false
+//engineOffset: 9.7
+//engineSize: 3.4
+//engineColor: fc8a6a
+abilities: [
+]
+weapons: [
+{
+name: threat-electro-weapon
+x: 4.5
+y: 6
+reload: 86
+shootSound: spark
+rotate: true
+rotateSpeed: 1.6
+recoil: 3
+top: true
+shootCone: 15
+bullet: {
+type: LightningBulletType
+damage: 21
+lightningLength: 14
+lightningLengthRand: 9
+lightningColor: f2b1b6
+}
+}
+]

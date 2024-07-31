@@ -1,0 +1,16 @@
+type: Sorter
+name: "Sorter"
+description: "Sorts items. The selected item is brought forward."
+category: distribution
+size: 1
+health: 60
+
+requirements: [
+  aluminum/4
+] 
+
+researchCostMultiplier: 0.3
+research: {
+planet: Cedon
+parent: aluminum-router
+}

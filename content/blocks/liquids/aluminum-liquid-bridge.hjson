@@ -1,0 +1,16 @@
+type: LiquidBridge
+name: "Liquid bridge"
+health: 50
+liquidCapacity: 10
+category: liquid
+hasPower: false
+range: 4
+requirements: [
+  aluminum/8
+  fiberglass/5
+]
+researchCostMultiplier: 0.3
+research: {
+planet: Cedon
+parent: aluminum-liquid-router
+}

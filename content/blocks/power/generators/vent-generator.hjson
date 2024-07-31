@@ -1,0 +1,43 @@
+type: ThermalGenerator
+name: "Vent generator"
+description: "Generates energy due to the heat emanating from the vents."
+
+squareSprite: false
+
+size: 3
+attribute: steam
+displayEfficiencyScale: 1
+minEfficiency: 0.0001
+powerProduction: 0.53468
+displayEfficiency: false
+generateEffect: turbinegenerate
+effectChance: 0.05
+category: power
+research: energy-node
+requirements: [
+  aluminum/70
+  fiberglass/35
+],
+ambientSound: hum
+ambientSoundVolume: 0.07
+drawer: {
+  type: DrawMulti
+  drawers: [
+   {
+      type: DrawDefault
+   },
+   {
+      type: DrawBlurSpin
+      suffix: -rotator
+      rotateSpeed: 7.2
+      blurThresh: 0.02
+   }
+ ]
+},
+hasLiquids: true
+outputLiquid: water/0.072
+fogRadius: 2.7
+researchCost: [
+  aluminum/180
+  titanium/150
+]

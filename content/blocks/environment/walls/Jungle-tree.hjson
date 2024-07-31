@@ -1,0 +1,6 @@
+type: TreeBlock
+name: "Jungle treee"
+variants: 3
+clipSize: 320
+shadowAlpha: 0.5
+shadowOffset: -4.0

@@ -1,0 +1,3 @@
+type: StaticWall,
+name: "Gallite rock wall"
+variants: 3             //Кол-во вариаций (Спрайтов)

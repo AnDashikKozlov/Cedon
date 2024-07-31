@@ -1,0 +1,34 @@
+type: consumeGenerator
+name: "Aluminum transformer"
+description: "Recycles aluminum into energy."
+category: power
+
+hasItems: true
+hasLiquids: false
+itemDuration: 120
+powerProduction: 0.23643
+ambientSound: steam
+ambientSoundVolume: 0.04
+
+requirements: [
+  aluminum/32
+]
+
+drawer: {
+type: DrawMulti
+drawers: [DrawDefault, DrawWarmupRegion]
+}
+
+consumes: {
+  items: {
+    items: [
+      aluminum/3
+    ]
+  }
+}
+
+researchCostMultiplier: 0.3
+research: {
+planet: Cedon
+parent: Core-sprout
+}

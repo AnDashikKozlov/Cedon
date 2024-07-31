@@ -1,0 +1,45 @@
+type: GenericCrafter
+name: "Fiberglass oven"
+description: "Melts fiberglass"
+health: 750
+size: 2
+drawer: {
+type: DrawMulti
+drawers: [
+{
+type: DrawRegion,
+suffix: -bottom
+},
+{
+type: DrawWeave
+},
+{
+type: DrawDefault
+},
+],
+},
+  requirements: [
+  aluminum/20
+  ],
+hasPower: true
+hasItems: true
+craftTime: 42
+consumes: {
+    power: 2.7,
+    items: {
+			items: [
+                sand/3
+    ]
+  },
+}
+updateEffect: smeltsmoke
+category: crafting
+idleSoundVolume: 0.5
+itemCapacity: 15
+outputItem: fiberglass/2
+
+researchCostMultiplier: 0.3
+research: {
+parent: Core-sprout
+planet: Cedon
+}

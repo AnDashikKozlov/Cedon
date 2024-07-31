@@ -1,0 +1,28 @@
+type: UnitCargoUnloadPoint
+name: "Unloading station"
+description: "Unloads the selected item. The item is delivered by drone."
+
+size: 2,
+health: 450,
+
+itemCapacity: 400,
+liquidCapacity: 0,
+separateItemCapacity: true,
+requirements: 
+[
+	aluminum/100,
+	fiberglass/50
+],
+category: distribution,
+
+hasItems: true,
+hasLiquids: flase,
+outputsLiquid: flase,
+outputItems: true,
+buildTime: 200,
+
+researchCostMultiplier: 0.4
+research: {
+parent: loading-station
+planet: Cedon
+}

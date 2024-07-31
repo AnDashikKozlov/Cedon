@@ -1,0 +1,61 @@
+name: "Electron"
+
+squareSprite: false
+outlineColor: 36363cff
+
+requirements: [
+aluminum/28
+]
+researchCostMultiplier: 0.3
+research: {
+planet: Cedon
+parent: Core-sprout
+}
+
+//Тип, радиус атаки, эффект стрельбы
+type: ItemTurret
+range: 90
+shootEffect: {
+        type: Particle Effect
+        particles: 5
+        lifetime: 35
+        sizeFrom: 6
+        colorFrom: 505050
+        sizeTo: 0
+}
+health: 250
+category: turret
+reload: 15                  //Перезарядка
+//Виды пуль (боеприпасов)
+"ammoTypes": {
+    "aluminum": {
+                    type: BasicBulletType
+                    lifetime: 75
+                    speed: 1.3
+                    lightning: 6
+                    lightningColor: 00cdd4
+                    lightningLengthRand: 4.56
+                    lightningLength: 10
+                    lightningDamage: 12
+                    sprite: ce-artillery-yellow-ball
+                    hitEffect: none
+                    despawnEffect: none
+                    despawnSound: spark
+                    frontColor: 616060
+                    damage: 9
+                    backColor: 505050
+                    bulletInterval: 3.2
+                    //Интервальная пуля
+                    intervalBullet: {
+                        type: LightningBulletType
+                        lightningLength: 5
+                        lightningLengthRand: 7.43
+                        lightningDamage: 14
+                        lightningColor: 4f4f4f
+                       }
+                   }
+}
+shootSound: shockBlast          //Звук выстрела
+consumes: {
+coolant: {}
+}

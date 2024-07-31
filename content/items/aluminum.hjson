@@ -1,0 +1,19 @@
+name: "Aluminum"
+  explosiveness: 0      //Взрывоопасность
+  flammability: 0     //Воспламеняемость
+  radioactivity: 0      //Радиактивность
+  charge: 0     //Заряд
+  color: b2b8bf       //Цвет
+  cost: 1     //Сколько стоит (В ванильной игре не используется)
+  hardness: 0    //На сколько трудно добывать (0 - игрок/юниты, 1 - мех. бур, 2 - пневм. бур, 3- лазер. бур, 4 - воздуш. бур)
+  //На каких планетах предмет спрятан
+  hiddenOnPlanets: [
+    serpulo
+    erekir
+  ]
+  //К чему прикреплён
+research: {
+planet: Cedon
+parent: Core-sprout
+}
+alwaysUnlocked: true

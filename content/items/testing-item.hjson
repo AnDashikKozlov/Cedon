@@ -1,0 +1,15 @@
+name: "Testing item"
+  explosiveness: 10      //Взрывоопасность
+  flammability: 10     //Воспламеняемость
+  radioactivity: 10      //Радиактивность
+  charge: 10     //Заряд
+  color: b2b8bf       //Цвет
+  cost: 1     //Сколько стоит (В ванильной игре не используется)
+  hardness: 0    //На сколько трудно добывать (0 - игрок/юниты, 1 - мех. бур, 2 - пневм. бур, 3- лазер. бур, 4 - воздуш. бур)
+  //На каких планетах предмет спрятан
+  hiddenOnPlanets: [
+    serpulo
+    erekir
+  ]
+
+buildVisibility: hide

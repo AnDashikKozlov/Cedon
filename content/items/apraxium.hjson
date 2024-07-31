@@ -1,0 +1,24 @@
+name: "Apraxium"
+  explosiveness: 0.1236324      //Взрывоопасность
+  flammability: 0     //Воспламеняемость
+  radioactivity: 0.923527      //Радиактивность
+  charge: 0     //Заряд
+  color: e3ba5b       //Цвет
+  cost: 2.6     //Сколько стоит (В ванильной игре не используется)
+  hardness: 3    //На сколько трудно добывать (0 - игрок/юниты, 1 - мех. бур, 2 - пневм. бур, 3- лазер. бур, 4 - воздуш. бур)
+  //На каких планетах предмет спрятан
+  hiddenOnPlanets: [
+    serpulo
+    erekir
+  ]
+  //К чему прикреплён
+research: {
+  parent: sulfur
+  planet: Cedon
+  requirements: [
+    {
+      item: apraxium
+      amount: 250
+    }
+  ]
+ }

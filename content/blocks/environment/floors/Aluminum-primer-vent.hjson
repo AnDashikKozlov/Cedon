@@ -1,0 +1,11 @@
+type: SteamVent
+name: "ALuminum vent"
+parent: Aluminum-primer
+blendGroup: Aluminum-primer
+variants: 3
+effect: ventSteam
+effectColor: 706b63
+attributes: {
+   steam: 0.3585
+   heat: 0.2423
+}

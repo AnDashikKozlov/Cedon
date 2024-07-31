@@ -1,0 +1,41 @@
+ type: Drill
+ name: "Hydraulic drill"
+ size: 2
+ tier: 2     //Бурит предмет такой прочности
+ drillTime: 190      //Время бурения
+ itemCapacity: 15      //Сколько предметов вмещает
+ rotateSpeed: 1.3     //Скорость вращения части rotator
+ warmupSpeed: 0.001
+ liquidBoostIntensity: 1.5     //Интенсивность ускорения жидкостью
+ liquidCapacity: 7       //Сколько вмещает жидкостей
+ outputLiquid: water
+ outputLiquidPerTick: 0.6
+ //Что потребляет
+ consumes: {
+    liquid: {
+      liquid: water
+      amount: 0.05
+      optional: true
+      booster: true
+      update: true
+    }
+}
+upgrade: {
+    effects: {
+      drillSpeed: 1.4
+    }
+}
+  //Стоимость постройки
+requirements: [
+    fiberglass/15
+	aluminum/20
+]
+  //Категория, здоровье, скорость, к чему прикрепленно
+category: production
+health: 175
+speed: 0.35
+researchCostMultiplier: 0.2
+research: {
+planet: Cedon
+parent: aluminum-drill
+}

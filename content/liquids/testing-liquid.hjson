@@ -1,0 +1,12 @@
+type: liquid
+name: "[slate]Testing liquid"
+description: "[slate]Liquid used for mod dev and tests."
+details: "[goldenrod]Need only for mod dev testing."
+temperature: 0
+viscosity: 0.5
+color: e6f1f5
+coolant: true
+heatCapacity: 999
+
+flammability: 0
+explosiveness: 0

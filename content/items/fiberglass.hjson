@@ -1,0 +1,24 @@
+name: "Fiberglass"
+  explosiveness: 0      //Взрывоопасность
+  flammability: 0     //Воспламеняемость
+  radioactivity: 0      //Радиактивность
+  charge: 0     //Заряд
+  color: fcfae6       //Цвет
+  cost: 1.5     //Сколько стоит (В ванильной игре не используется)
+  hardness: 0    //На сколько трудно добывать (0 - игрок/юниты, 1 - мех. бур, 2 - пневм. бур, 3- лазер. бур, 4 - воздуш. бур)
+  //На каких планетах предмет спрятан
+  hiddenOnPlanets: [
+    serpulo
+    erekir
+  ]
+  //К чему прикреплён
+research: {
+  parent: aluminum
+  planet: Cedon
+  requirements: [
+    {
+      item: fiberglass
+      amount: 200
+    }
+  ]
+ }

@@ -1,0 +1,28 @@
+name: "Building repair station"
+description: "Repairs nearby blocks after damage."
+type: MendProjector
+health: 760
+size: 2
+range: 100
+reload: 85
+healPercent: 2.5
+consumes: { 
+ power: 2,
+    liquid: {
+      liquid: water
+      amount: 0.10
+      optional: true
+      booster: true
+      update: true
+    }
+},
+requirements: [
+aluminum/30
+fiberglass/45
+]
+category: effect
+researchCostMultiplier: 0.5
+research: {
+planet: Cedon
+parent: energy-node
+}

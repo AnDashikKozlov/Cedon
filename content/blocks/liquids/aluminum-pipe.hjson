@@ -1,0 +1,20 @@
+type: Conduit
+name: "Aluminum pipe"
+leaks: true
+health: 30
+hasPower: false
+requirements: [
+  aluminum/2
+  fiberglass/1
+]
+liquidCapacity: 6
+liquidPressure: 1
+botColor: 4a4b53
+category: liquid
+junctionReplacement: aluminum-liquid-junction
+bridgeReplacement: aluminum-liquid-bridge
+researchCostMultiplier: 0.2
+research: {
+planet: Cedon
+parent: aluminum-pump
+}

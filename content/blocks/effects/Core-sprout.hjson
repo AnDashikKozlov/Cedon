@@ -1,0 +1,27 @@
+type: CoreBlock
+name: "Core: Sprout"
+description: "The first core, small capacity of items, nothing special."
+
+squareSprite: false           //Квадратный спрайт? (Ставьте false)
+
+health: 2500
+size: 3
+absorbLasers: true
+itemCapacity: 3000          //Вместимость ядра
+unitCapModifier: 10          //На сколько увеличивает максимальное количество юнитов, которых можно построить
+unitType: threat
+incinerateNonBuildable: false        //Нельзя строить в игре (true - да нельзя, false - нет можно); Для первого ядра стоит ставить true
+isFirstTier: true           //Первое ядро? (У нас да, значит true)
+requirements: [
+  aluminum/2600
+  titanium/2000
+  fiberglass/1500
+]
+category: effect
+research: {
+  root: true
+  name: Cedon
+  requiresUnlock: false
+  planet: Cedon
+  }
+  alwaysUnlocked: true

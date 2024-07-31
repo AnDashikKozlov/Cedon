@@ -1,0 +1,161 @@
+type: ItemTurret
+name: "Break"
+description: "A medium sized turret that fires a massive charge of energy that explodes."
+details: "Shoot idea by Lechanchic25"
+
+squareSprite: false
+outlineColor: 36363cff
+
+size: 3
+health: 725
+reload: 215
+range: 315
+maxAmmo: 30
+inaccuracy: 3
+shots: 1
+targetAir: false
+targetGround: true
+loopSound: spellLoop
+shootCone: 5
+spread: 0.5
+recoilAmount: 5
+restitution: 0.6
+rotateSpeed: 2.2
+shootSound: shootSmite
+
+shoot: {
+    firstShotDelay: 40 
+  }
+chargeSound: lasercharge2
+inaccuracy: 4
+
+ammoPerShot: 8
+ammoTypes: {
+    "apraxium": {
+                    type: ArtilleryBulletType
+					smokeEffect: launchPod
+					width: 30
+					heigth: 42
+                    lifetime: 85
+					splashDamage: 115
+					splashDamageRadius: 83
+					sprite: ce-artillery-yellow-ball
+                    speed: 1.8
+                    lightning: 7
+                    lightningColor: ffe375
+                    lightningLengthRand: 4.56
+                    lightningLength: 8
+                    lightningDamage: 14
+					trailColor: c49a4b
+					trailChance: -1
+					trailWidth: 3.5
+					trailLength: 34
+                    hitEffect: scatheExplosion
+					hitColor: e3b75f
+					hitSound: largeCannon
+					hitShake: 0.8
+                    despawnEffect: none
+                    despawnSound: spark
+                    damage: 82
+					status: blasted
+					statusDuration: 156
+					makeFire: false
+                    bulletInterval: 6.2
+                    //Интервальная пуля
+                    intervalBullet: {
+                        type: LightningBulletType
+                        lightningLength: 7
+                        lightningLengthRand: 13
+                        lightningDamage: 14
+                        lightningColor: c49a4b
+                       }
+                   }
+}
+category: turret
+requirements: [
+  aluminum/150
+  fiberglass/65
+  apraxium/20
+  //testItem/40
+  ]
+researchCostMultiplier: 0.5
+research: {
+planet: Cedon
+parent: Hold
+}
+consumes: {
+coolant: {},
+power: 2.4
+}
+
+drawer: {
+      type: DrawTurret
+      parts: [
+      {
+      type: RegionPart
+      suffix: -side
+      under: true
+      mirror: true
+      heatProgress: recoil
+      progress: warmup
+      moveRot: -15
+      moves: [
+      {
+      type: PartMove
+      rot: -15
+      }
+      ]
+      children: [
+            {
+            type: RegionPart
+            color: ff000000
+            suffix: -side-glow
+            colorTo: ff000066
+            progress: warmup
+            outline: false
+            }
+            ]
+      }
+      {
+      type: RegionPart
+      suffix: -middle
+      progress: recoil
+      moveY: -2.5
+      heatProgress: recoil
+      }
+{
+type: ShapePart
+  y: 16
+  hollow: true
+  circle: true
+  layer: 110
+  color: ffda6b
+  stroke: 0
+  strokeTo: 1.3
+  radius: 7
+}
+{
+type: ShapePart
+  y: 6
+  hollow: true
+  circle: true
+  layer: 110
+  color: ffda6b
+  stroke: 0
+  strokeTo: 0.7
+  radius: 3.4
+}
+{
+type: ShapePart
+  y: 6
+  hollow: true
+  layer: 110
+  color: ffda6b
+  sides: 3
+  stroke: 0
+  strokeTo: 0.7
+  radius: 2.3
+  rotateSpeed: -0.8
+}
+      ]
+      }

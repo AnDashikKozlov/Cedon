@@ -1,0 +1,14 @@
+type: LiquidJunction
+name: "Liquid junction"
+health: 30
+category: liquid
+hasPower: false
+requirements: [
+  aluminum/6
+  fiberglass/3
+]
+researchCostMultiplier: 0.3
+research: {
+planet: Cedon
+parent: aluminum-pipe
+}

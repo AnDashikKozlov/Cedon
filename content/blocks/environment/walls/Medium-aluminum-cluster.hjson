@@ -1,0 +1,6 @@
+type: TallBlock
+name: "Medium aluminum cluster"
+variants: 2
+clipSize: 256
+shadowAlpha: 0.5
+shadowOffset: -1.5

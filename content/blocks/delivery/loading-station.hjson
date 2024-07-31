@@ -1,0 +1,34 @@
+type: UnitCargoLoader
+name: "Loading station"
+description: "Creates a cargo drone that delivers items."
+
+size: 3
+health: 600
+
+unitType: cargo-drone
+itemCapacity: 150
+liquidCapacity: 20
+separateItemCapacity: true
+requirements: 
+[
+	aluminum/200
+	fiberglass/200
+	titanium/160
+],
+category: distribution,
+
+buildTime: 300
+
+hasItems: true
+hasPower: true
+hasLiquids: true
+consumes:
+  {
+      power: 2.7,
+      liquid: gallite-liquid/0.2
+  },
+researchCostMultiplier: 0.4
+research: {
+parent: aluminum-unloader
+planet: Cedon
+}

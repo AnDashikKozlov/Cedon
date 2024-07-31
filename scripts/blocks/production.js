@@ -1,0 +1,1 @@
+const fiberglassOven = extend(GenericCrafter, "fiberglass-oven", {});

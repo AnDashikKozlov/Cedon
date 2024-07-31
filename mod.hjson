@@ -1,0 +1,16 @@
+name: "ce"
+displayName: "Cedon"
+author: "[gold]Cedon DEV team"
+description: "ENG: A small modification that adds the planet Cedon and new content related to it.
+RUS: Небольшая модификация, добавляющая планету Цедон и новый контент, связанный с ней.
+
+[gold]Cedon Development Team members[]:
+[goldenrod]Andrey Kozlov (AnDashik) []- Sprite artist/Programmer/Game designer
+  
+[sky]Kostya Kozlov []- Game designer/Concept-art artist
+  
+[teal]Nikita Kamovich []- Alpha, Beta tester"
+subtitle: "Mod add new planet and content related to it"
+version: "alpha 0.4"
+minGameVersion: "146"
+hidden: "false"

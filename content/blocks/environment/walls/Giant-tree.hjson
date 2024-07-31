@@ -1,0 +1,6 @@
+type: TreeBlock
+name: "Giant tree"
+variants: 2
+clipSize: 512
+shadowAlpha: 0.5
+shadowOffset: -7.0

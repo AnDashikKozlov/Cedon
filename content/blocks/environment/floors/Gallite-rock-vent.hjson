@@ -1,0 +1,11 @@
+type: SteamVent
+name: "Gallite vent"
+parent: Gallite-rock-floor
+blendGroup: Gallite-rock-floor
+variants: 3
+effect: ventSteam
+effectColor: 706b63
+attributes: {
+   steam: 0.5121
+   heat: 0.4353
+}

@@ -1,0 +1,19 @@
+type: Pump
+name: "Aluminum pump"
+health: 120
+size: 2
+pumpAmount: 0.10
+squareSprite: false
+category: liquid
+hasPower: true
+consumes: {
+power: 0.35
+  }
+requirements: [
+  aluminum/35
+]
+researchCostMultiplier: 0.2
+research: {
+planet: Cedon
+parent: aluminum-drill
+}

@@ -1,0 +1,16 @@
+type: LiquidRouter
+name: "Liquid router"
+health: 50
+liquidCapacity: 10
+category: liquid
+placeableLiquid: true
+hasPower: false
+requirements: [
+  aluminum/3
+  fiberglass/2
+]
+researchCostMultiplier: 0.3
+research: {
+planet: Cedon
+parent: aluminum-liquid-junction
+}

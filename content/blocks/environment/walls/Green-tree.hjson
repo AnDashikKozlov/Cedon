@@ -1,0 +1,6 @@
+type: TreeBlock
+name: "Green tree"
+variants: 2
+clipSize: 128
+shadowAlpha: 0.5
+shadowOffset: -2.0

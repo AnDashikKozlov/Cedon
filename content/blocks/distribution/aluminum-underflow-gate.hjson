@@ -1,0 +1,16 @@
+type: OverflowGate
+name: "Underflow gate"
+description: "The opposite of overflow gate. Brings items forward only if side paths are blocked."
+category: distribution
+health: 60
+invert: true
+
+requirements: [
+  aluminum/6
+] 
+
+researchCostMultiplier: 0.3
+research: {
+planet: Cedon
+parent: aluminum-overflow-gate
+}

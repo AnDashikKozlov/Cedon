@@ -1,0 +1,10 @@
+type: liquid
+name: "Oxygen"
+gas: true
+color: e6f1f5
+coolant: true
+heatCapacity: 1.4
+research: {
+planet: Cedon
+parent: fiberglass
+}
