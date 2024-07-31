@@ -1,13 +1,13 @@
+  type: Conveyor
   name: "Aluminum conveyor"
   description: "Aluminum conveyor, medium speed."
   category: distribution
-  speed: 0.08      //Скорость
-  displayedSpeed: 0.8     //Отображаемая скорость
+  speed: 0.06      //Скорость
+  displayedSpeed: 0.7     //Отображаемая скорость
   junctionReplacement: aluminum-junction
   bridgeReplacement: aluminum-bridge-conveyor
   health: 40
   acceptsItems: true      //Может принимать предметы? Да
-  type: Conveyor
   requirements: [
     aluminum/1
 ]

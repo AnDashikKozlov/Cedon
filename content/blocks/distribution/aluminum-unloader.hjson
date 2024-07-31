@@ -3,6 +3,7 @@ name: "Unloader"
 description: "Unloads the selected item."
 health: 90
 capacity: 15
+squareSprite: false
 
 //Потом создадим 2 предмет который будет создаваться с помощью первого предмета и плавильни
 requirements: [

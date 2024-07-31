@@ -1,0 +1,13 @@
+type: StorageBlock
+requirements: [
+aluminum/80
+fiberglass/50
+]
+category: effect
+health: 600
+itemCapacity: 150
+size: 2
+squareSprite: false
+research: {
+parent: aluminum-unloader
+}
