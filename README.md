@@ -1,6 +1,6 @@
 Cedon.
-Mod that adds new planet "Ceodon" and content related to it.
+Mod that adds new planet "Cedon" and content related to it.
 
-This is my forst mod.
+This is my first mod.
 
-!WORK IN PROGGRESS!
+!WORK IN PROGRESS!
