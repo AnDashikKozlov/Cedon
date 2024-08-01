@@ -21,7 +21,7 @@ groundLayer: 60
 
 fogRadius: 7
 drag: 0.5
-speed: 3.2
+speed: 4.2
 isEnemy: false
 lowAltitude: true
 mineWalls: true
