@@ -1,4 +1,0 @@
-type: StaticWall,
-name: "Testing wall"
-variants: 3             //Кол-во вариаций (Спрайтов)
-itemDrop: testing-item
