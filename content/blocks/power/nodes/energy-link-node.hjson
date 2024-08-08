@@ -1,5 +1,5 @@
 type: BeamNode
-name: "Energy node"
+name: "Energy link node"
 description: "Transfers energy over a short distance."
 
 squareSprite: false
