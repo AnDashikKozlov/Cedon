@@ -43,7 +43,7 @@ abilities: [
 ]
 weapons: [
 {
-name: threat-electro-weapon
+name: coreunit-electro-weapon
 x: 4.5
 y: 6
 reload: 86
