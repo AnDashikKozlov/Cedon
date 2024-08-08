@@ -6,5 +6,5 @@ coolant: true
 heatCapacity: 1.4
 research: {
 planet: Cedon
-parent: fiberglass
+parent: gallite-luquid
 }
