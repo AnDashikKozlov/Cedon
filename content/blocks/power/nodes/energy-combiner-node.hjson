@@ -1,5 +1,5 @@
 type: BeamNode
-name: "Energy node combiner"
+name: "Energy combiner node"
 description: "Improved version of the energy node. Has a larger operating radius."
 
 squareSprite: false
