@@ -1,9 +1,7 @@
 type: BeamNode
 name: "Energy node"
 description: "Transfers energy over a short distance."
-consumes: {
-  powerBuffered: 1500
-}
+
 squareSprite: false
 allowDiagonal: true
 drawDisabled: false
@@ -19,10 +17,10 @@ laserColor1: 7dd8ff               //светлый цвет
 laserColor2: 5d5dc2               //тёмный цвет
 category: power
 requirements: [
-    aluminum/15
+    aluminum/20
   ]
 category: power
-researchCostMultiplier: 0.2
+researchCostMultiplier: 0.3
 research: {
 planet: Cedon
 parent: aluminum-transformer
