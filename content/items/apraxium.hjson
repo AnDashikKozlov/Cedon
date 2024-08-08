@@ -13,7 +13,7 @@ name: "Apraxium"
   ]
   //К чему прикреплён
 research: {
-  parent: sulfur
+  parent: fiberglass
   planet: Cedon
   requirements: [
     {
