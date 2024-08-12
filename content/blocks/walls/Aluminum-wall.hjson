@@ -10,5 +10,4 @@ requirements: [
 researchCostMultiplier: 0.2
 research: {
 planet: Cedon
-parent: Electron
-}
+parent: Core-sprout
