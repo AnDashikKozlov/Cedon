@@ -11,3 +11,4 @@ researchCostMultiplier: 0.2
 research: {
 planet: Cedon
 parent: Core-sprout
+}
