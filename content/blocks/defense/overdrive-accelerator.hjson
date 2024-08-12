@@ -26,5 +26,5 @@ category: effect
 researchCostMultiplier: 0.5
 research: {
 planet: Cedon
-parent: buiding-repair-station
+parent: building-repair-station
 }
