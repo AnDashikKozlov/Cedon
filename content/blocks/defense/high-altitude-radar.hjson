@@ -9,9 +9,9 @@ hasPower: true
 consumes: {
  liquid: {
   liquid: gallite-liquid
-  amount: 1.45
+  amount: 1.35
   }
- power: 2.68
+ power: 2.6
 }
 category: effect
 requirements: [
