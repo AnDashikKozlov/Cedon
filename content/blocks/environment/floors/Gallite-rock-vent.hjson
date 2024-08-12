@@ -6,6 +6,6 @@ variants: 3
 effect: ventSteam
 effectColor: 706b63
 attributes: {
-   steam: 0.5121
-   heat: 0.4353
+   steam: 0.6232
+   heat: 0.5464
 }
