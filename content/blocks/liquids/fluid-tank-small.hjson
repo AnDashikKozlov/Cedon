@@ -1,7 +1,7 @@
 type: LiquidRouter
 name: "Small fluid tank"
 health: 150
-liquidCapacity: 500
+liquidCapacity: 180
 size: 2
 category: liquid
 placeableLiquid: true
