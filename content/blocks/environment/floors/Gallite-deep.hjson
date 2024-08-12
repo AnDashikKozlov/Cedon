@@ -8,8 +8,8 @@ variants: 3
 cacheLayer: water
 isLiquid: true
 liquidDrop: gallite-liquid
-liquidMultiplier: 1.1
+  liquidMultiplier: 1.8
 albedo: 2.3
 shallow: false
 supportsOverlay: true
-placeableOn: false
+placeableOn: true
