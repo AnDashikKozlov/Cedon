@@ -1,0 +1,22 @@
+type: radar
+name: "High altitude radar"
+description: "Used for reconnaissance of the surrounding area over a large radius. Pretty tall thing."
+squareSprite: false
+size: 3
+range: 265
+fogRadius: 48
+hasPower: true
+consumes: {
+ liquid: {
+  liquid: gallite-liquid
+  amount: 1.8
+  }
+ power: 2.5
+}
+category: effect
+requirements: [
+  aluminum/120
+  seridium/75
+  fiberglass/20
+]
+research: core-shard

@@ -7,24 +7,24 @@ range: 90
 consumes: { 
  power: 2.5,
     liquid: {
-      liquid: water
-      amount: 0.15
+      liquid: hydrogen
+      amount: 0.17
       optional: true
       booster: true
       update: true
     }
 },
-    speedBoost: 1.4
-    speedBoostPhase: 0.8
-    phaseRangeBoost: 30,
+    speedBoost: 1.2
+    speedBoostPhase: 0.7
+    phaseRangeBoost: 20,
 requirements: [
 aluminum/50
 fiberglass/80
-apraxium/30
+seridium/30
 ]
 category: effect
 researchCostMultiplier: 0.5
 research: {
 planet: Cedon
-parent: buigldin-repair-station
+parent: buiding-repair-station
 }
