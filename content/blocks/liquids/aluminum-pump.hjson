@@ -2,7 +2,7 @@ type: Pump
 name: "Aluminum pump"
 health: 120
 size: 2
-pumpAmount: 0.11.5
+pumpAmount: 0.11
 squareSprite: false
 category: liquid
 hasPower: true
