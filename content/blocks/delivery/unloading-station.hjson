@@ -2,24 +2,24 @@ type: UnitCargoUnloadPoint
 name: "Unloading station"
 description: "Unloads the selected item. The item is delivered by drone."
 
-size: 2,
-health: 450,
+size: 2
+health: 450
 
-itemCapacity: 400,
-liquidCapacity: 0,
-separateItemCapacity: true,
+itemCapacity: 400
+liquidCapacity: 0
+separateItemCapacity: true
 requirements: 
 [
-	aluminum/100,
+	aluminum/100
 	fiberglass/50
-],
-category: distribution,
+]
+category: distribution
 
-hasItems: true,
-hasLiquids: flase,
-outputsLiquid: flase,
-outputItems: true,
-buildTime: 200,
+hasItems: true
+hasLiquids: flase
+outputsLiquid: flase
+outputItems: true
+buildTime: 200
 
 researchCostMultiplier: 0.4
 research: {

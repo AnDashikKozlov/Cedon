@@ -11,11 +11,11 @@ liquidCapacity: 20
 separateItemCapacity: true
 requirements: 
 [
-	aluminum/200
-	fiberglass/200
-	titanium/160
-],
-category: distribution,
+	aluminum/160
+	fiberglass/60
+	seridium/80
+]
+category: distribution
 
 buildTime: 300
 
@@ -24,7 +24,7 @@ hasPower: true
 hasLiquids: true
 consumes:
   {
-      power: 2.7,
+      power: 2.7
       liquid: gallite-liquid/0.2
   },
 researchCostMultiplier: 0.4
