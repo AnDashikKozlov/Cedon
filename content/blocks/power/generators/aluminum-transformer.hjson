@@ -5,8 +5,8 @@ category: power
 
 hasItems: true
 hasLiquids: false
-itemDuration: 110
-powerProduction: 0.30053
+itemDuration: 120
+powerProduction: 0.40053
 ambientSound: steam
 ambientSoundVolume: 0.05
 
@@ -22,7 +22,7 @@ drawers: [DrawDefault, DrawWarmupRegion]
 consumes: {
   items: {
     items: [
-      aluminum/2
+      aluminum/1.5
     ]
   }
 }
