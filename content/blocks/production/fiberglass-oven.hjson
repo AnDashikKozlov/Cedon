@@ -25,7 +25,7 @@ hasPower: true
 hasItems: true
 craftTime: 42
 consumes: {
-    power: 2.1,
+    power: 1.74,
     items: {
 			items: [
                 sand/3
