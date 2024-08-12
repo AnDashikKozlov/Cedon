@@ -19,18 +19,18 @@ recipes: [
 	  ]
 		power: 0.85
         }
-    output: hydrogen/0.17
+    output: hydrogen/0.18
     craftTime: 170
   }
   {
     input: {
 	    fluids: [
-        water/0.82
+        water/0.92
 		]
-		power: 0.98
+		power: 1.11
         }
     output:ce-oxygen/0.14
-    craftTime: 195
+    craftTime: 205
   }
 ]
 
