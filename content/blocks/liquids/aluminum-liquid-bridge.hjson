@@ -1,10 +1,10 @@
 type: LiquidBridge
 name: "Liquid bridge"
 health: 50
-liquidCapacity: 10
+liquidCapacity: 12
 category: liquid
 hasPower: false
-range: 4
+range: 5
 requirements: [
   aluminum/8
   fiberglass/5
