@@ -1,10 +1,10 @@
 type: liquid
 name: "Gallite"
 description: "Mainly used in manufacturing."
-details: "Slightly flammable, viscous yellow-green substance, origin: unknown."
+details: "Slightly flammable, viscous yellow substance, origin: unknown."
 temperature: 0.4
 viscosity: 0.7
-color: 94eb4d
+color: edc664
 coolant: false
 heatCapacity: 0.4
 

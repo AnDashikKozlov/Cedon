@@ -1,0 +1,24 @@
+name: "Seridium"
+  explosiveness: 0.0      //Взрывоопасность
+  flammability: 0     //Воспламеняемость
+  radioactivity: 0.0      //Радиактивность
+  charge: 0     //Заряд
+  color: 8cb8db       //Цвет
+  cost: 2.0     //Сколько стоит (В ванильной игре не используется)
+  hardness: 2    //На сколько трудно добывать (0 - игрок/юниты, 1 - мех. бур, 2 - пневм. бур, 3- лазер. бур, 4 - воздуш. бур)
+  //На каких планетах предмет спрятан
+  hiddenOnPlanets: [
+    serpulo
+    erekir
+  ]
+  //К чему прикреплён
+research: {
+  parent: fiberglass
+  planet: Cedon
+  requirements: [
+    {
+      item: apraxium
+      amount: 150
+    }
+  ]
+ }

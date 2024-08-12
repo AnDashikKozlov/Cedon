@@ -9,19 +9,21 @@ legForwardScl: 0.56
 legMoveSpace: 0.84
 
 outlineColor: 3d3d3a
+drownTimeMultiplier: 0.9
+shake: 0.1
+drag: 0.5
 
 alwaysUnlocked: true
 flying: false
+hovering: false
 shadowElevation: 0.1
 controller: BuilderAI
 payloadCapacity: 2
 pickupUnits: false
-hovering: true
 groundLayer: 60
 
 fogRadius: 7
-drag: 0.5
-speed: 3.5
+speed: 2.3
 isEnemy: false
 lowAltitude: true
 mineWalls: true
@@ -30,7 +32,7 @@ mineSpeed: 1.6
 mineTier: 1
 buildSpeed: 0.75
 accel: 0.1
-rotateSpeed: 2.6
+rotateSpeed: 1.3
 itemCapacity: 20
 health: 182
 armor: 2
@@ -50,7 +52,7 @@ reload: 86
 shootSound: spark
 rotate: true
 rotateSpeed: 1.6
-recoil: 3
+recoil: 0.5
 top: true
 shootCone: 15
 bullet: {

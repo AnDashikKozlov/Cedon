@@ -1,0 +1,48 @@
+{
+	"type": mech,
+	"flying": false,
+	"speed": 1.25,
+	"name": "Clawler",
+	"description": "Cost, but efective unit for rushes on bases. It's shoots four shrapnels at total from two barrels."
+	"health": 530,
+	"armor": 2,
+	"size": 14,
+	"range": 40,
+	"weapons": [
+		{
+			"name": "clawler-gun",
+			"mirror": false,
+			"reload": 250
+			"x": 0,
+			"shootX": 0,
+			"y": 0,
+			"shootY": 2,
+			"shoot": {
+				"type": ShootMulti
+				"source": {
+					"type": ShootAlternate
+					"shots": 1,
+					"spread": 0,
+				}
+				"dest": [
+					{
+					"type": ShootBarrel,
+					"shotDelay": 15,
+					"shots": 2,
+					"barrels": [
+						2, -1, 0,
+						-2, -1, 0
+					],
+					}
+				]
+			},
+			"bullet": {
+				"type": ShrapnelBulletType,
+				"damage": 19,
+				"length": 50,
+				"seperations": 10,
+				"pierceArmor": true
+			}
+		}
+	]
+}

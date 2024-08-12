@@ -1,0 +1,8 @@
+localizedName: "Landing point"
+description: "You landing on new planet. Research it!"
+captureWave: 15
+planet: Cedon
+sector: 11
+research: Core-sprout
+difficulty: 1
+alwaysUnlocked: true

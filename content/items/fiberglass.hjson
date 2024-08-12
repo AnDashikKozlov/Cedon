@@ -18,7 +18,7 @@ research: {
   requirements: [
     {
       item: fiberglass
-      amount: 200
+      amount: 50
     }
   ]
  }

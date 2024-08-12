@@ -2,9 +2,9 @@ type: liquid
 name: "Oxygen"
 gas: true
 color: e6f1f5
-coolant: true
-heatCapacity: 1.4
+coolant: false
+heatCapacity: 0.4
 research: {
 planet: Cedon
-parent: gallite-luquid
+parent: gallite-liquid
 }

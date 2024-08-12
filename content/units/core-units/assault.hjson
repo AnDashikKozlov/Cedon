@@ -1,0 +1,112 @@
+name: "Assault"
+description: "The first unit of the first core. It has two small electric guns and the ability to create a field that harms the enemy."
+
+type: legs
+legCount: 8
+legLength: 35
+legSpeed: 0.32
+legForwardScl: 0.94
+legMoveSpace: 0.73
+
+outlineColor: 3d3d3a
+drownTimeMultiplier: 2.1
+shake: 0.1
+drag: 0.5
+
+alwaysUnlocked: true
+flying: false
+hovering: false
+shadowElevation: 0.1
+controller: BuilderAI
+payloadCapacity: 2
+pickupUnits: false
+groundLayer: 80
+
+fogRadius: 14
+speed: 4.0
+isEnemy: false
+lowAltitude: true
+mineWalls: true
+mineFloor: true
+mineSpeed: 3.5
+mineTier: 3
+buildSpeed: 2.1
+accel: 0.1
+rotateSpeed: 3.7
+itemCapacity: 60
+health: 310
+armor: 8
+hitSize: 18
+//useEngineElevation: false
+//engineOffset: 9.8
+//engineSize: 3.8
+//engineColor: fc8a6a
+abilities: [
+{
+      type: mindustry.entities.abilities.ShieldArcAbility
+	  region: ce-defender-shield
+      radius: 28
+      angle: 188
+      regen: 0.6
+      cooldown: 63
+	  max: 2000
+	  y: 11
+	  width: 5
+	  whenShooting: true
+    }
+]
+weapons: [
+{
+name: coreunit-electro-weapon
+x: 5
+y: 6.5
+reload: 53
+shootSound: spark
+rotate: true
+rotateSpeed: 3.9
+recoil: 2.5
+top: true
+shootCone: 20
+  bullet: {
+    type: LightningBulletType
+    damage: 41
+    lightningLength: 26
+    lightningLengthRand: 16
+    lightningColor: f2b1b6
+  }
+},
+{
+x: 0
+y: 8
+mirror: false
+reload: 82
+shootSound: shotgun
+rotate: false
+rotateSpeed: 0
+baseRotation: 0
+recoil: 2.5
+top: true
+shootCone: 20
+  bullet: {
+    type: shrapnelBulletType
+        lifetime: 28
+        damage: 35
+        serrations: 5
+        serrationSpacing: 14
+        serrationLenScl: 12
+        serrationWidth: 3
+        hitLarge: true
+        fromColor: fc8a6a
+        toColor: f2b1b6
+        length: 120
+        width: 8
+        hitEffect: blastExplosion
+        shootEffect: blastExplosion
+        pierce: true
+		pierceBuilding: true
+		pierceCap: 3
+        smokeEffect: hitBulletBig
+		inaccuracy: 0
+  }
+}
+]
