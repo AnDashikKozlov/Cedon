@@ -37,25 +37,29 @@ ammoTypes: {
             hitEffect: blastExplosion
             shootEffect: blastExplosion
             pierce: true
+	    	pierceBuilding: true
+      		pierceCap: 4
             smokeEffect: hitBulletBig
         }
-        titanium: {
-            type: shrapnelBulletType,
-            lifetime: 27,
-            damage: 28,
+        seridium: {
+            type: shrapnelBulletType
+            lifetime: 27
+            damage: 28
             status: freezing
             statusDuration: 94
             serrations: 6
             serrationSpacing: 16
             serrationLenScl: 15
             serrationWidth: 5
-            fromColor: d9faff,
-            toColor: 6d96e3,
-            length: 147,
-            width: 8,
-            hitEffect: blastExplosion,
-            shootEffect: blastExplosion,
-            pierce: true,
+            fromColor: d9faff
+            toColor: 6d96e3
+            length: 147
+            width: 8
+            hitEffect: blastExplosion
+            shootEffect: blastExplosion
+            pierce: true
+		    pierceBuilding: false
+		    pierceCap: 2
             smokeEffect: hitBulletBig
         }
     }

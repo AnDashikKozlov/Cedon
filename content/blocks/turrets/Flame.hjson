@@ -94,8 +94,8 @@ colorTo: 78a4cc
 category: turret
 requirements: [
   aluminum/80
-  fiberglass/35
-  apraxium/15
+  fiberglass/50
+  seridium/35
   ]
 researchCostMultiplier: 0.4
 research: {

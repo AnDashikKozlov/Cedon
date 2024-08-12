@@ -8,7 +8,7 @@ outlineColor: 36363cff
 
 size: 3
 health: 725
-reload: 215
+reload: 245
 range: 315
 maxAmmo: 30
 inaccuracy: 3
@@ -18,13 +18,13 @@ targetGround: true
 loopSound: spellLoop
 shootCone: 5
 spread: 0.5
-recoilAmount: 5
+recoilAmount: 6
 restitution: 0.6
-rotateSpeed: 2.2
+rotateSpeed: 1.4
 shootSound: shootSmite
 
 shoot: {
-    firstShotDelay: 40 
+    firstShotDelay: 50 
   }
 chargeSound: lasercharge2
 inaccuracy: 4
@@ -56,6 +56,7 @@ ammoTypes: {
 					hitShake: 0.8
                     despawnEffect: none
                     despawnSound: spark
+					knockback: 1.7
                     damage: 82
 					status: blasted
 					statusDuration: 156
@@ -76,7 +77,6 @@ requirements: [
   aluminum/150
   fiberglass/65
   apraxium/20
-  //testItem/40
   ]
 researchCostMultiplier: 0.5
 research: {

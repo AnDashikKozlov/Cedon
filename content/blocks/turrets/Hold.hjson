@@ -24,9 +24,9 @@ statusDuration: 160
 consumes: {
  liquid: {
   liquid: gallite-liquid
-  amount: 1.1
+  amount: 1.05
   }
- power: 1.9
+ power: 1.8
 }
 requirements: [
 aluminum/100
