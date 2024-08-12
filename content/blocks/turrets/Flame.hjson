@@ -38,7 +38,7 @@ ammoTypes: {
 type: ContinuousFlameBulletType,
 colors: [7399c7, 71acd1, 7dd1e8, 91effa, ffffff]
 damage: 19
-knockback: 1
+knockback: 1.3
 status: melting
 statusDuration: 182
 width: 3.2
@@ -65,8 +65,8 @@ colorTo: a3d96a
 "oxygen": {
 type: ContinuousFlameBulletType,
 colors: [c4a17e, e6cb8c, f5ebba, fff8d1, ffffff]
-damage: 22
-knockback: 1
+damage: 25
+knockback: 2.4
 status: melting
 statusDuration: 195
 width: 3.6
@@ -100,7 +100,7 @@ requirements: [
 researchCostMultiplier: 0.4
 research: {
 planet: Cedon
-parent: Hold
+parent: Break
 }
 
 drawer: {
