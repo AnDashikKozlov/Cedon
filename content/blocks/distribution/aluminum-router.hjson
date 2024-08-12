@@ -1,0 +1,18 @@
+//Думаю здесь и так понятно :3
+  type: Router
+  name: "Router"
+  description: "Distributes objects in different directions."
+  category: distribution
+  health: 60
+  size: 1
+  capacity: 1
+
+  requirements: [
+      aluminum/3
+  ]
+
+researchCostMultiplier: 0.3
+research: {
+planet: Cedon
+parent: aluminum-duct-junction
+}
