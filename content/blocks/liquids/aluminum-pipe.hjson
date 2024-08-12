@@ -7,7 +7,7 @@ requirements: [
   aluminum/2
   fiberglass/1
 ]
-liquidCapacity: 18
+liquidCapacity: 16
 liquidPressure: 1
 botColor: 4a4b53
 category: liquid
