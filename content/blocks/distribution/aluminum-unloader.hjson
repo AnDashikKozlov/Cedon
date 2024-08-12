@@ -7,8 +7,8 @@ squareSprite: false
 
 //Потом создадим 2 предмет который будет создаваться с помощью первого предмета и плавильни
 requirements: [
-  aluminum/30
-  //testItem2/25
+  aluminum/20
+  seridium/15
 ] 
 category: effect
 

@@ -14,5 +14,5 @@
 researchCostMultiplier: 0.3
 research: {
 planet: Cedon
-parent: aluminum-junction
+parent: aluminum-duct-junction
 }
