@@ -1,7 +1,7 @@
 type: LiquidRouter
 name: "Liquid router"
 health: 50
-liquidCapacity: 10
+liquidCapacity: 20
 category: liquid
 placeableLiquid: true
 hasPower: false
