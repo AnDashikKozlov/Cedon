@@ -11,7 +11,7 @@ consumes: {
   liquid: gallite-liquid
   amount: 1.8
   }
- power: 2.5
+ power: 2.6
 }
 category: effect
 requirements: [
