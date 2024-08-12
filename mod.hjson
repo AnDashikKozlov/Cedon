@@ -10,7 +10,8 @@ RUS: Небольшая модификация, добавляющая план�
 [sky]Kostya Kozlov []- Game designer/Concept-art artist
   
 [teal]Nikita Kamovich []- Alpha, Beta tester"
-subtitle: "Mod add new planet and content related to it"
-version: "alpha 0.4"
+subtitle: "vAlpha0.6 New planet and content"
+version: "alpha 0.6"
 minGameVersion: "146"
 hidden: "false"
+dependencies: ["multi-crafter"]
