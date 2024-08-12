@@ -1,5 +1,5 @@
 type: CoreBlock
-name: "Core: Sprout"
+name: "Core: <<Sprout>>"
 description: "The first core, small capacity of items, nothing special."
 
 squareSprite: false           //Квадратный спрайт? (Ставьте false)
@@ -14,8 +14,6 @@ incinerateNonBuildable: false        //Нельзя строить в игре (
 isFirstTier: true           //Первое ядро? (У нас да, значит true)
 requirements: [
   aluminum/2600
-  titanium/2000
-  fiberglass/1500
 ]
 category: effect
 research: {

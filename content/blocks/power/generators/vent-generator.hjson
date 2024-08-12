@@ -13,7 +13,7 @@ displayEfficiency: false
 generateEffect: turbinegenerate
 effectChance: 0.05
 category: power
-research: energy-node
+research: energy-link-node
 requirements: [
   aluminum/70
   fiberglass/35
@@ -23,6 +23,13 @@ ambientSoundVolume: 0.07
 drawer: {
   type: DrawMulti
   drawers: [
+   {  type: DrawRegion
+      suffix: -bottom
+   }
+   {  type: DrawLiquidRegion
+      suffix: -liquid
+	  drawLiquid: water
+   }
    {
       type: DrawDefault
    },

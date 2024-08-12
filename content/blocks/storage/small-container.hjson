@@ -1,4 +1,6 @@
 type: StorageBlock
+name: "Small container"
+description: "Stores a small number of resources within itself. Increases kernel storage capacity."
 requirements: [
 aluminum/80
 fiberglass/50

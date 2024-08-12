@@ -10,14 +10,15 @@ size: 1
 health: 125
 //maxNodes: 6
 //laserRange: 12
-range: 12
+range: 10
 //laserColor1: f7e08d
 //laserColor2: ff9257
 laserColor1: 7dd8ff               //светлый цвет
 laserColor2: 5d5dc2               //тёмный цвет
 category: power
 requirements: [
-    aluminum/20
+    aluminum/12
+	fiberglass/20
   ]
 category: power
 researchCostMultiplier: 0.3

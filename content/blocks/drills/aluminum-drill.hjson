@@ -28,7 +28,7 @@ upgrade: {
 }
   //Стоимость постройки
  requirements: [
-	aluminum/15
+	aluminum/10
 ]
   //Категория, здоровье, скорость, к чему прикрепленно
  category: production

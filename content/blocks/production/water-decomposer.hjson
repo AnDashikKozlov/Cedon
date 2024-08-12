@@ -1,0 +1,85 @@
+type: multicraft.MultiCrafter
+name: "Water decomposer"
+attribute: heat
+baseEfficiency: 0.5
+minEfficiency: 0.5
+maxBoost: 2
+boostScale: 0.4556
+hasItems: false
+hasLiquids: true
+hasPower: true
+size: 3
+squareSprite: false
+
+recipes: [
+  {
+    input: {
+      fluids: [
+		water/0.63
+	  ]
+		power: 0.85
+        }
+    output: hydrogen/0.17
+    craftTime: 170
+  }
+  {
+    input: {
+	    fluids: [
+        water/0.82
+		]
+		power: 0.98
+        }
+    output:ce-oxygen/0.14
+    craftTime: 195
+  }
+]
+
+//outputLiquid: hydrogen/0.16
+craftEffect: smokeCloud
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      padding: 3
+      drawLiquid: hydrogen
+      alpha: 0.8
+    }
+	{
+      type: DrawLiquidTile
+      padding: 3
+      drawLiquid: ce-oxygen
+      alpha: 0.8
+    }
+    {    
+      type: DrawBubbles
+      color: 89a8c4
+    }
+    {
+      type: DrawCircles
+      color: 89a8c4
+      strokeMax: 0.8
+      radius: 8
+      amount: 2.5
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+
+category: crafting
+requirements: [
+  aluminum/75
+  seridium/50
+]
+
+researchCostMultiplier: 0.3
+research: {
+parent: fiberglass-oven
+planet: Cedon
+}

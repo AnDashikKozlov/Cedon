@@ -9,8 +9,8 @@ underBullets: true
 size: 3
 health: 250
 //maxNodes: 16
-//laserRange: 42
-range: 20
+//laserRange: 45
+range: 30
 //laserColor1: f7e08d
 //laserColor2: ff9257
 laserColor1: 7dd8ff               //светлый цвет
@@ -18,7 +18,8 @@ laserColor2: 5d5dc2               //тёмный цвет
 category: power
 requirements: [
     aluminum/50
-    fiberglass/30
+	fiberglass/75
+    seridium/30
   ]
 category: power
 researchCostMultiplier: 0.4

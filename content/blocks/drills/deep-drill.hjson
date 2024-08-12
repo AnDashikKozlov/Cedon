@@ -29,8 +29,8 @@ upgrade: {
   //Стоимость постройки
 requirements: [
     fiberglass/35
-	aluminum/40
-	//Item/20
+	aluminum/80
+	seridium/50
 ]
   //Категория, здоровье, скорость, к чему прикрепленно
 category: production

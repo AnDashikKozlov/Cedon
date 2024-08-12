@@ -1,26 +1,27 @@
 type: CoreBlock
-name: "Core: <<Bloom>>"
-description: "The second core, medium capacity of items, nothing special."
+name: "Core: <<Branch>>"
+description: "The third core, big capacity of items."
 
 squareSprite: false           //Квадратный спрайт? (Ставьте false)
 
 health: 3600
-size: 4
+size: 5
 absorbLasers: true
-itemCapacity: 5000          //Вместимость ядра
-unitCapModifier: 15          //На сколько увеличивает максимальное количество юнитов, которых можно построить
-unitType: defender
+itemCapacity: 12000          //Вместимость ядра
+unitCapModifier: 20          //На сколько увеличивает максимальное количество юнитов, которых можно построить
+unitType: assault
 incinerateNonBuildable: false        //Нельзя строить в игре (true - да нельзя, false - нет можно); Для первого ядра стоит ставить true
 isFirstTier: false           //Первое ядро? (У нас да, значит true)
 requirements: [
-  aluminum/2800
-  seridium/2500
-  fiberglass/1850
+  aluminum/3800
+  seridium/3500
+  fiberglass/2850
+  apraxium/1200
 ]
 category: effect
 research: {
   planet: Cedon
-  parent: Core-sprout
+  parent: Core-bloom
     requirements: [
     aluminum/2800
     seridium/2500

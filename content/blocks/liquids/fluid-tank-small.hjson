@@ -9,7 +9,7 @@ hasPower: false
 requirements: [
   fiberglass/30
   aluminum/15
-  titanium/10
+  seridium/10
 ]
 researchCostMultiplier: 0.3
 research: {
