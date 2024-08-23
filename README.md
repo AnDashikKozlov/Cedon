@@ -1,4 +1,4 @@
-![Logo](banner.png)Cedon.
+Cedon.
 Mod that adds new planet "Cedon" and content related to it.
 
 This is my first mod.
